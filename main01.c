@@ -9,12 +9,11 @@ int main(int argc, char *argv[]) {
 	printf("input a number : \n");
 	scanf("%d", &num);
 	
-	if ( num > 0 )
-		printf("This is a positive number.");
-	else if ( num == 0)
-		printf("This is zero.");
+	if ( num < 0 )
+		printf("%d", -num); 	
 	else
-		printf("This is a negative number.");
+		printf("%d", num);
+			
 	
 	system("PAUSE");
 	return 0;
