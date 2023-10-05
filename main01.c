@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
 	char c;
-	int num = 0;
+	int num;
 	
 	printf("input a string : ");
 	
@@ -16,6 +16,7 @@ int main(int argc, char *argv[]) {
 	}
 	
 	printf("Number of numbers in the input string is %d.\n", num);
+	
 	
 	system("PAUSE");
 	return 0;
